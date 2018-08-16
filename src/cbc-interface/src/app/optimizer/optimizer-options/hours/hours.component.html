@@ -1,0 +1,78 @@
+<form (ngSubmit)="onUpdate(f)" #f="ngForm">
+    <div class="row" style="padding-bottom: 10px">
+      <div class="col-xs-12">
+        <b>Hours Available:</b>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 form-group">
+        <label for="monday">Monday ({{ f.value.monday }})</label>
+        <input
+          [ngModel]="problem.hours['monday']"
+          [value]="problem.hours['monday']"
+          type="range" 
+          name="monday"
+          id="monday"
+          min="0"
+          max="12"/> 
+        </div>
+      <div class="col-xs-6 form-group">
+        <label for="tuesday">Tuesday ({{ f.value.tuesday }})</label>
+        <input
+          [ngModel]="problem.hours['tuesday']"
+          [value]="problem.hours['tuesday']"
+          type="range" 
+          name="tuesday"
+          id="tuesday"
+          min="0"
+          max="12"/>        
+        </div>
+      <div class="col-xs-6 form-group">
+        <label for="wednesday">Wednesday ({{ f.value.wednesday }})</label>
+        <input
+          [ngModel]="problem.hours['wednesday']"
+          [value]="problem.hours['wednesday']"
+          type="range" 
+          name="wednesday"
+          id="wednesday"
+          min="0"
+          max="12"/>
+        </div>
+      <div class="col-xs-6 form-group">
+        <label for="thursday">Thursday ({{ f.value.thursday }})</label>
+        <input 
+          [ngModel]="problem.hours['thursday']"
+          [value]="problem.hours['thursday']"
+          type="range" 
+          name="thursday"
+          id="thursday"
+          min="0"
+          max="12"/>
+        </div>
+      <div class="col-xs-6 form-group">
+        <label for="friday">Friday ({{ f.value.friday }})</label>
+        <input 
+          [ngModel]="problem.hours['friday']"
+          [value]="problem.hours['friday']"
+          type="range" 
+          name="friday"
+          id="friday"
+          min="0"
+          max="12"/>
+        </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <button 
+         class="btn btn-success" 
+         type="submit"
+         [disabled]="!f.valid">
+         Update
+      </button>
+      <button 
+        class="btn btn-primary" 
+        type="button"
+        (click)="onReset()">Reset</button>
+    </div>
+  </div>
+</form>

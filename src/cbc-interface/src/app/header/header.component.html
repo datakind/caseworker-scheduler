@@ -1,0 +1,33 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <a href="#" class="navbar-brand">
+      <img 
+        src="http://www.datakind.org/static/images/icons/DataKind_white.png"
+        alt="DataKind"
+        class="img-responsive"
+        style="max-height: 17px"
+      >
+    </a>
+    </div>
+    <div class="collaps navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li  routerLinkActive="active" >
+            <a (click)="onNavigate('/my-activities')">
+              <b>My Activities</b>
+            </a>
+        </li>
+        <li  routerLinkActive="active" >
+          <a (click)="onNavigate('/startpoint')">
+            <b>Start Point</b>
+          </a>
+        </li>
+        <li  routerLinkActive="active" >
+          <a (click)="onNavigate('/optimizer')">
+            <b>Optimizer</b>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

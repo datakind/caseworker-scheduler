@@ -1,0 +1,85 @@
+<form (ngSubmit)="onAddItem(f)" #f="ngForm">
+  <div class="row">
+      <div class="col-xs-4" style="padding-bottom: 10px">
+        <b>Assignments:</b>
+      </div>
+      <div class="col-xs-8" style="color:red">
+        <b>{{ errorMessage }}</b>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-4 form-group">
+        <label for="deadlineActivity">Activity</label>
+        <select
+          type="text"
+          id="deadlineActivity"
+          class="form-control"
+          name="deadlineActivity"
+          ngModel
+          required
+        >
+          <option></option>
+          <option *ngFor="let activity of activities">
+            {{ activity.caseName }}
+            {{ activity.activityType }}
+          </option>
+        </select>
+      </div>
+      <div class="col-xs-4 form-group">
+        <label for="deadlineDay">Assignment</label>
+        <select
+          type="text"
+          id="deadlineDay"
+          class="form-control"
+          name="deadlineDay"
+          ngModel
+          required
+        >
+          <option *ngFor="let day of days">
+            {{ day }}
+          </option>
+        </select>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <button 
+         class="btn btn-success" 
+         type="submit"
+         [disabled]="!f.valid">
+         {{ editMode ? 'Update' : 'Add'  }} 
+      </button>
+      <button 
+        class="btn btn-danger" 
+        type="button"
+        (click)="onDelete()"
+        *ngIf="editMode">Delete</button>
+      <button 
+        class="btn btn-primary" 
+        type="button"
+        (click)="onClear()">Clear</button>
+    </div>
+  </div>
+</form>
+<div class="row">
+  <div class="col-xs-12">
+    <hr>
+    <b>Active Assignments:</b>
+    <div style="max-height: 225px;overflow-y: scroll;">
+      <table class="table table-striped">
+        <tr>
+          <th style="width: 70%">Activity</th>
+          <th style="width: 30%">Assignment</th> 
+        </tr>
+        <tr 
+          *ngFor="let deadline of deadlines; let i = index"
+          (click)="onEditItem(i)"
+          style="cursor: pointer"
+        >
+          <td> {{ deadline.activity }} </td>
+          <td> {{ deadline.dueDate }} </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+<form (ngSubmit)="onSet(f)" #f="ngForm">
+  <div class="row">
+    <div class="col-xs-12 form-group">
+      <label for="objective">Set Objective:</label>
+      <select
+        type="text"
+        id="objective"
+        class="form-control"
+        name="objective"
+        ngModel
+        required
+      >
+        <option>Minimize Driving Time</option>
+        <option>Minimize Number of Days</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <b>Current Objective:</b> {{ problem.objective }}
+    </div>  
+  </div>
+  <div class="row">
+    <div class="col-xs-12" style="padding-top: 10px;">
+      <button 
+         class="btn btn-success" 
+         type="submit"
+         [disabled]="!f.valid">
+         Set
+      </button>
+      <button 
+        class="btn btn-primary" 
+        type="button"
+        (click)="onClear()">Clear</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,102 @@
+<div class="row">
+  <div class="col-xs-4">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+      <h3>Enter Attributes</h3>
+      <hr>
+      <div class="row">
+        <div class="col-xs-6 form-group">
+          <label for="numberOfSiblings"># of Siblings</label>
+          <select 
+          type="number" 
+          id="numberOfSiblings" 
+          class="form-control"
+          name="numberOfSiblings"
+          ngModel
+          required
+          >
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <div class="col-xs-6 form-group">
+          <label for="criminalRecord">Criminal Record?</label>
+          <select 
+          id="criminalRecord" 
+          class="form-control"
+          name="criminalRecord"
+          ngModel
+          required>
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-6 form-group">
+            <label for="drivingDistance">Distance</label>
+            <input 
+            type="number" 
+            min="0"
+            id="drivingDistance" 
+            class="form-control"
+            name="drivingDistance"
+            ngModel
+            required
+            [pattern]="'^[0-9]*$'"
+            >
+          </div>
+          <div class="col-xs-6 form-group">
+            <label for="GPA">GPA</label>
+            <input 
+            type="number"
+            min="0"
+            max="4"
+            step="0.01"
+            id="GPA" 
+            class="form-control"
+            name="GPA"
+            ngModel
+            required
+            [pattern]="'^[0-4]+.+[0-9]+[0-9]$'">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 form-group">
+          <label for="caseWorkerNotes">Case Notes</label>
+          <textarea
+            type="text"
+            id="caseWorkerNotes"
+            class="form-control"
+            rows="6"
+            placeholder="Enter case notes here."
+          ></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <button 
+             class="btn btn-success" 
+             type="submit"
+             [disabled]="!f.valid">Submit</button>
+          <button 
+            class="btn btn-primary" 
+            type="button"
+            (click)="onClear()">Clear</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="col-xs-8"> 
+    <h3>Case Recommendations</h3>
+    <hr>
+  </div>
+</div>

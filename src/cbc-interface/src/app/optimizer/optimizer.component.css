@@ -1,0 +1,15 @@
+.nav-item > .active {
+  background-color: #f08a24;
+  color: white;  
+}
+
+a {
+  background-color:   #ffb732;
+  color: white;
+}
+
+.nav-item > a:hover, a:focus {
+  background-color: #f08a24;
+  cursor: pointer;
+}
+

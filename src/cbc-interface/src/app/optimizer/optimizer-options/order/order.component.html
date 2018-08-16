@@ -1,0 +1,99 @@
+<form (ngSubmit)="onAddItem(f)" #f="ngForm">
+  <div class="row">
+    <div class="col-xs-4" style="padding-bottom: 10px">
+      <b>Order Contraints:</b>
+    </div>
+    <div class="col-xs-8" style="color:red">
+      <b>{{ errorMessage }}</b>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 form-group">
+      <label for="orderActivity1">Activity</label>
+      <select
+        type="text"
+        id="orderActivity1"
+        class="form-control"
+        name="orderActivity1"
+        ngModel
+        required
+      >
+        <option *ngFor="let activity of getAssignedActivities()">
+          {{ activity }}
+        </option>
+      </select>
+    </div>
+    <div class="col-xs-3 form-group">
+      <label for="orderRelation">Order</label>
+      <select
+        type="text"
+        id="orderRelation"
+        class="form-control"
+        name="orderRelation"
+        ngModel
+        required
+      >
+        <option>Before</option>
+        <option>After</option>
+      </select>
+    </div>
+    <div class="col-xs-4 form-group">
+      <label for="orderActivity2">Activity</label>
+        <select
+          type="text"
+          id="orderActivity2"
+          class="form-control"
+          name="orderActivity2"
+          ngModel
+        >
+          <option *ngFor="let activity of getAssignedActivities()">
+            {{ activity }}
+          </option>
+        </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 button-group">
+      <button 
+         class="btn btn-success" 
+         type="submit"
+         [disabled]="!f.valid"> 
+           {{ editMode ? 'Update' : 'Add'  }}
+      </button>
+      <button 
+        class="btn btn-danger" 
+        type="button"
+        (click)="onDelete()"
+        *ngIf="editMode">Delete</button>
+      <button 
+        class="btn btn-primary" 
+        type="button"
+        (click)="onClear()">Clear</button>
+    </div>
+  </div>
+</form>
+<div class="row">
+  <div class="col-xs-12">
+    <hr>
+    <b>Active Constraints:</b>
+    <div style="max-height: 225px;overflow-y: scroll;">
+      <table class="table table-striped">
+        <tr>
+          <th style="width: 40%">Activity</th>
+          <th style="width: 20%">Order</th> 
+          <th style="width: 40%">Second Activity</th>
+        </tr>
+        <tr 
+          *ngFor="let constraint of constraints; let i = index"
+          (click)="onEditItem(i)"
+          style="cursor: pointer"
+        >
+          <td> {{ constraint.firstActivity }} </td>
+          <td> {{ constraint.order }} </td>
+          <td> {{ constraint.secondActivity }} </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+

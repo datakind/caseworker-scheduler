@@ -1,0 +1,84 @@
+{
+    "day_assignments": {
+        "6": "tuesday"
+    },
+    "destination": {
+        "label": "destination",
+        "coordinates": [
+            28.59739,
+            -81.25401
+        ]
+    },
+    "days": {
+        "tuesday": 8,
+        "monday": 8,
+        "wednesday": 0,
+        "friday": 0,
+        "thursday": 0
+    },
+    "activities": [
+        {
+            "label": "1",
+            "coordinates": [
+                28.53874,
+                -81.37861
+            ],
+            "duration": 25
+        },
+        {
+            "label": "2",
+            "coordinates": [
+                28.54052,
+                -81.38118
+            ],
+            "duration": 120
+        },
+        {
+            "label": "3",
+            "coordinates": [
+                28.56707,
+                -81.38971
+            ],
+            "duration": 100
+        },
+        {
+            "label": "4",
+            "coordinates": [
+                28.4497135606058,
+                -81.4707795871383
+            ],
+            "duration": 45
+        },
+        {
+            "label": "5",
+            "coordinates": [
+                28.5414049683169,
+                -81.37367
+            ],
+            "duration": 75
+        },
+        {
+            "label": "6",
+            "coordinates": [
+                28.404738,
+                -81.428915
+            ],
+            "duration": 90
+        }
+    ],
+    "origin": {
+        "label": "home",
+        "coordinates": [
+            28.59739,
+            -81.25401
+        ]
+    },
+    "constraints": [
+        {
+            "constraint_type": "Before",
+            "activity2": 4,
+            "activity1": 6
+        }
+    ],
+    "groups": []
+}

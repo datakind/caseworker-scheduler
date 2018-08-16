@@ -1,0 +1,82 @@
+<div class="row">
+
+	  <div class="col-xs-4">
+    <h3>Map</h3>
+    <hr>
+    <app-leaflet></app-leaflet>
+  </div>
+  <div class="col-xs-8" >
+    <div class="row">
+      <h3>Schedule Optimizer</h3>
+      <hr>
+    </div>
+    <div class="row">
+    <nav class="nav nav-pills">
+      <li class="nav-item" (click)="onClick('schedule')">
+      <a 
+        class="nav-link active"
+        *ngIf="activeTab=='schedule'"><b>Schedule</b>
+      </a>
+      <a 
+        class="nav-link"
+        *ngIf="activeTab!='schedule'"><b>Schedule</b>
+      </a>
+      </li>
+      <li class="nav-item" (click)="onClick('hours')">
+        <a 
+          class="nav-link active" 
+          *ngIf="activeTab=='hours'"><b>Daily Hours</b>
+        </a>
+        <a 
+          class="nav-link"
+          *ngIf="activeTab!='hours'"><b>Daily Hours</b>
+        </a>
+      </li>
+      <li class="nav-item" (click)="onClick('deadline')">
+        <a 
+          class="nav-link active" 
+          *ngIf="activeTab=='deadline'"><b>Assignments</b>
+        </a>
+        <a 
+          class="nav-link"
+          *ngIf="activeTab!='deadline'"><b>Assignments</b>
+        </a>
+      </li>
+      <li class="nav-item" 
+          (click)="onClick('order')" 
+          *ngIf="checkDeadlines().length>1">
+        <a 
+          class="nav-link active" 
+          *ngIf="activeTab=='order'"><b>Order</b>
+        </a>
+        <a 
+          class="nav-link"
+          *ngIf="activeTab!='order'"><b>Order</b>
+        </a>
+      </li>
+    </nav>
+    <hr >
+    </div>
+    <div *ngIf="activeTab=='startpoint'">
+      <app-startpoint></app-startpoint>
+    </div>
+    <div *ngIf="activeTab=='schedule'">
+      <app-schedule></app-schedule>
+    </div>
+    <div *ngIf="activeTab=='objective'">
+      <app-objective></app-objective>
+    </div>
+    <div *ngIf="activeTab=='hours'">
+      <app-hours></app-hours>
+    </div>
+    <div *ngIf="activeTab=='order'">
+      <app-order></app-order>
+    </div>
+    <div *ngIf="activeTab=='deadline'">
+      <app-deadline></app-deadline>
+    </div>
+    <div *ngIf="activeTab=='groups'">
+      <app-groups></app-groups>
+    </div>
+  </div>
+</div>

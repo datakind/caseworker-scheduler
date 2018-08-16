@@ -1,0 +1,54 @@
+<div class="row">
+    <div class="col-xs-4">
+      <h3>Add an Activity</h3>
+      <hr>
+      <app-my-activities-edit></app-my-activities-edit>
+    </div>
+    <div class="col-xs-8">
+      <h3>My Activities</h3>
+    <hr>
+    <ul class="list-group"
+        style="max-height: 600px; overflow-y: scroll;">
+      <a 
+        class="list-group-item" 
+        style="cursor: pointer"
+        *ngFor="let activity of activities; let i = index"
+        (click)="onEditItem(i)"
+        >
+        <div class="row">
+          <div class="col-xs-12">
+            <u><b> 
+              {{ activity.caseName }} {{ activity.activityType }}
+            </b></u>
+          <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5">
+            <b>Expected Duration: </b> {{ activity.expectedDuration }} minutes
+          </div>
+          <div class="col-xs-7" *ngIf="activity.completed">
+            <b>Completed: </b> Yes
+          </div>
+          <div class="col-xs-7" *ngIf="!activity.completed">
+            <b>Completed: </b> No
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5">
+            <b>Address: </b> {{ activity.address }}
+          </div>
+          <div class="col-xs-2">
+            <b>City: </b> {{ activity.city }}
+          </div>
+          <div class="col-xs-2">
+            <b>State: </b> {{ activity.state }}
+          </div>
+          <div class="col-xs-3">
+            <b>Zip Code: </b> {{ activity.zipCode }}
+          </div>
+        </div>
+      </a>
+    </ul>
+  </div>
+</div>

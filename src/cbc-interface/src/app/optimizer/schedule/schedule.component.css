@@ -1,0 +1,19 @@
+.p {
+  font-family: 'Georgia';
+}
+
+.h4 {
+  font-family: 'Helvetica-Neue';
+}
+
+.email-fail {
+  font-size: 30px;
+  color: red;
+  float: right;
+}
+
+.email-success {
+  font-size: 30px;
+  color: green;
+  float: right;
+}

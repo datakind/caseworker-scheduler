@@ -1,0 +1,21 @@
+[
+  {
+    "userId": "default",
+    "endpoint": "start",
+    "address": "4001 Pelee St", 
+    "city": "Orlando", 
+    "state": "FL",
+    "zipCode": "32817",
+    "coordinates": [28.59739, -81.25401],
+    "completed": false
+  },
+  {
+    "userId": "default",
+    "endpoint": "finish",
+    "address": "4001 Pelee St", 
+    "city": "Orlando", 
+    "state": "FL",
+    "zipCode": "32817",
+    "coordinates": [28.59739, -81.25401]
+  }
+]

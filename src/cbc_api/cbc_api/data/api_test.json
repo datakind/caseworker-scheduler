@@ -1,0 +1,36 @@
+{
+  "origin" : {
+    "label" : "home",
+    "coordinates" : ["28.50", "-81.25"]
+  },
+  "destination" : {
+    "label" : "home",
+    "coordinates" : ["28.50", "-81.25"]
+  },
+  "activities" : [
+    {
+      "label" : "activity_1",
+      "coordinates" : ["28.53874", "-81.37861"]
+    },
+    {
+      "label" : "activity_2",
+      "coordinates" : ["28.54052", "-81.38118"]
+    },
+    {
+      "label" : "activity_3",
+      "coordinates" : ["28.56707", "-81.38971"]
+    },
+    {
+      "label" : "activity_4",
+      "coordinates" : ["28.44971", "-81.47077"]
+    },
+    {
+      "label" : "activity_5",
+      "coordinates" : ["28.5414", "-81.37367"]
+    },
+    {
+      "label" : "activity_6",
+      "coordinates" : ["28.40474", "-81.42892"]
+    }
+  ]
+}

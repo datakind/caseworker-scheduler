@@ -1,0 +1,109 @@
+<div class="row">
+  <div class="col-xs-3 form-group">
+    <button 
+       class="btn btn-primary" 
+       type="submit"
+       (click)="onClick()">
+        Optimize
+    </button>
+  </div>
+
+  <div class="col-xs-9">
+    <div class="input-group">
+      <input 
+        type="text" 
+        class="form-control" 
+        placeholder="myaddr@example.com" 
+        [(ngModel)]="email">
+      <span class="input-group-btn">
+        <button 
+          class="btn btn-primary" 
+          type="button"
+          (click)="onSend()">
+          E-mail
+        </button>
+      </span>
+      <span *ngIf="emailSuccess===false">
+        <i 
+          class="fa fa-warning email-fail"
+          title="E-mail failed.">    
+        </i>
+      </span>
+      <span *ngIf="emailSuccess===true">
+        <i 
+          class="fa fa-check-circle-o email-success"
+          title="E-mail sent.">    
+        </i>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div style="max-height: 460px; overflow-y: scroll; overflow-x: hidden;">
+  <div *ngFor="let day of allDays;">
+    <div class="row"
+        *ngIf="optimized==true && orderedActivities[day].length>0">
+      <div class="col-xs-6">
+        <h4><b>
+            {{ dayMap[day] }} 
+        </b></h4>
+      </div>
+      <div class="col-xs-6" style="text-align:right; padding-right:30px">
+        <h4>
+        Time: {{ getTotalTime(day) }} hrs     
+        </h4>
+      </div>
+    </div>
+    <div class="row" 
+        *ngIf="optimized==true && orderedActivities[day].length>0">
+      <div class="col-xs-12">
+        <table class="table table-striped">
+          <tr>
+            <th>Activity</th> 
+            <th>Address</th>
+            <th>Duration</th>
+            <th>Travel</th>
+            <th>Move</th>
+          </tr>
+          <tr>
+            <td>Start</td>
+            <td>{{ scheduleStart.address }}, {{ scheduleStart.city }}, {{ scheduleStart.state }}, {{ scheduleStart.zipCode }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr *ngFor="let activity of orderedActivities[day]; let i = index">
+            <td> {{ activity.caseName }}
+                {{ activity.activityType }}
+            </td>
+            <td>
+              {{ activity.address }}, {{ activity.city }},
+              {{ activity.state }}, {{ activity.zipCode }}
+            </td>
+            <td> {{ activity.expectedDuration }} mins</td>
+            <td> {{ getDrivingDistance(i,day) }} mins </td>
+            <td>
+                <div style="font-size:1.5em;">
+                  <i class="svg-inline--fa fa fa-angle-up"
+                    style="cursor:pointer;"
+                    *ngIf="upArrowRequired(i,day)"
+                    (click)="onMoveUp(i,day)"></i>
+                  <i class="svg-inline--fa fa fa-angle-down"
+                    style="cursor:pointer;"
+                    *ngIf="downArrowRequired(i,day)"
+                    (click)="onMoveDown(i,day)"></i>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Finish</td>
+            <td>{{ scheduleEnd.address }}, {{ scheduleEnd.city }}, {{ scheduleEnd.state }}, {{ scheduleEnd.zipCode }}</td>
+            <td>-</td>
+            <td> {{ getLastDistance(day) }} mins</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

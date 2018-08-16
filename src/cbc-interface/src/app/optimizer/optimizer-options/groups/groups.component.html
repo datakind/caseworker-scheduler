@@ -1,0 +1,82 @@
+<form (ngSubmit)="onAddItem(f)" #f="ngForm">
+  <div class="row">
+      <div class="col-xs-12" style="padding-bottom: 10px">
+        <b>Same Day Groups:</b>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-4 form-group">
+        <label for="activity1">Activity 1</label>
+        <select
+          type="text"
+          id="activity1"
+          class="form-control"
+          name="activity1"
+          ngModel
+          required
+        >
+          <option *ngFor="let activity of activities">
+            {{ activity.caseName }}
+            {{ activity.activityType }}
+          </option>
+        </select>
+      </div>
+      <div class="col-xs-4 form-group">
+        <label for="activity2">Activity 2</label>
+        <select
+          type="text"
+          id="activity2"
+          class="form-control"
+          name="activity2"
+          ngModel
+          required
+        >
+          <option *ngFor="let activity of activities">
+            {{ activity.caseName }}
+            {{ activity.activityType }}
+          </option>
+        </select>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <button 
+         class="btn btn-success" 
+         type="submit"
+         [disabled]="!f.valid">
+         {{ editMode ? 'Update' : 'Add'  }} 
+      </button>
+      <button 
+        class="btn btn-danger" 
+        type="button"
+        (click)="onDelete()"
+        *ngIf="editMode">Delete</button>
+      <button 
+        class="btn btn-primary" 
+        type="button"
+        (click)="onClear()">Clear</button>
+    </div>
+  </div>
+</form>
+<div class="row">
+  <div class="col-xs-12">
+    <hr>
+    <b>Active Same Day Groups:</b>
+    <div style="max-height: 225px;overflow-y: scroll;">
+      <table class="table table-striped">
+        <tr>
+          <th style="width: 50%">Activity 1</th>
+          <th style="width: 50%">Activity 2</th> 
+        </tr>
+        <tr 
+          *ngFor="let group of groups; let i = index"
+          (click)="onEditItem(i)"
+          style="cursor: pointer"
+        >
+          <td> {{ group.activity1 }} </td>
+          <td> {{ group.activity2 }} </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

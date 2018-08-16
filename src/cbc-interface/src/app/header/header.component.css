@@ -1,0 +1,30 @@
+.navbar-default{
+ 	/* Sets the header background */
+	/*background-color: #D6821C */
+	background-color: #f08a24;
+}
+.navbar-default .navbar-brand {
+	/* Set the color for the brand section */
+	color: white; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+ 	/* Colors for the active tab */
+	color: white; 
+	background-color: #030033;
+}
+.navbar-default .navbar-nav > li > a {
+   color: white;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+	color: white;
+	background-color: #030033;
+  cursor: pointer;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: #030033;
+  cursor: pointer;
+}
