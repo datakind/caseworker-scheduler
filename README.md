@@ -3,8 +3,9 @@
 The UI for the scheduler is build in Angular.
 To run the UI, you'll need node and npm installed on your system.
 For instructions on how to install node and npm, see the following resouces: 
-  -https://github.com/creationix/nvm
-  -http://blog.teamtreehouse.com/install-node-js-npm-windows
+
+  1. https://github.com/creationix/nvm
+  2. http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 Once node and npm are install, it is helpful to install the Angluar CLI. You can do this by running `npm install -g angular-cli`.
 
