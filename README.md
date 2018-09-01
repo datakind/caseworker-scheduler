@@ -1,12 +1,75 @@
-# Datakind/CBC API
+# DataKind Scheduler Dependencies
 
-(Hey, FactOx! Can you tell us how the API works?)>:water_buffalo: 
+The UI for the scheduler is build in Angular.
+To run the UI, you'll need node and npm installed on your system.
+For instructions on how to install node and npm, see the following resouces: 
 
-(I hope it 'scales' well!)>:crocodile: 
+  1. https://github.com/creationix/nvm
+  2. http://blog.teamtreehouse.com/install-node-js-npm-windows
 
-(And is e-fish-ent!)>:fish: 
+Once node and npm are install, it is helpful to install the Angluar CLI. You can do this by running `npm install -g angular-cli`.
 
-(Well hey there, friends! Listen up and I'll tell you!)>:ox:
+The API and CLI run in Python, and requires Python 3.6 or later.
+If Python is not currently installed on your system, Anaconda is a good installation option.
+See the following documentation for details on how to install Anaconda: https://conda.io/docs/user-guide/install/index.html#regular-installation.
+
+# DataKind Scheduler UI
+
+All of the code for the UI is located in the `cbc-interface` folder.
+To install the UI, navigate to the `cbc-interface` folder and run `npm install`.
+This should create a `node_modules` folder in `cbc-interface` that contains all of the node depenencies.
+To run the UI in a development server, run `ng serve` from the `cbc-interface` folder.
+This will run the UI on port 4200.
+If you have a web server, ensure that you redirect traffic from `/` to port 4200.
+To create a production build of the app, run `ng build --prod`.
+This will create a static `dist` folder that you can host from a webserver.
+
+# DataKind Scheduler API
+
+## Run the API
+
+First, install the `cbc_api` package by navigating to this folder in a terminal or command line and running the following command:
+
+```
+pip install -e .
+```
+
+Second, install the `cbc_schedule` package by navigating to the cbc_schedule directory in the root of this repo and following the instructions in the README.
+
+Once you've done that, you'll be able to run the API on your local host using the following CLI command. The `--debug` flag runs the API in debug mode. If you omit that, it will still work, but you'll get less verbose terminal output
+
+```
+cbc_api launch --debug
+```
+
+To make sure everything's working, run the following command from the terminal or
+paste the URL into a brower:
+
+```
+curl http://localhost:5000/cbc_datakind/api/v1.0/test
+```
+
+If everything is working properly, you'll get the following response:
+
+```
+{
+  "message": "Hello, friend! :)"
+}
+```
+
+## Run Test
+
+To run the tests for this package, navigate to this folder and run the following command
+
+```
+python -m pytest
+```
+
+To run an individual test, navigate to the test folder and run
+
+```
+pytest {filename}
+```
 
 ## Configurations
 
@@ -60,51 +123,6 @@ Next, you'll need to add you database configs through the config manager. Run th
 cbc_api add_config --key MYSQL_HOST --value localhost
 cbc_api add_config --key MYSQL_USER --value root
 cbc_api add_config --key MYSQL_PW --value mypw
-```
-
-## Run the API
-
-First, install the `cbc_api` package by navigating to this folder in a terminal or command line and running the following command:
-
-```
-pip install -e .
-```
-
-Second, install the `cbc_schedule` package by navigating to the cbc_schedule directory in the root of this repo and following the instructions in the README.
-
-Once you've done that, you'll be able to run the API on your local host using the following CLI command. The `--debug` flag runs the API in debug mode. If you omit that, it will still work, but you'll get less verbose terminal output
-
-```
-cbc_api launch --debug
-```
-
-To make sure everything's working, run the following command from the terminal or
-paste the URL into a brower:
-
-```
-curl http://localhost:5000/cbc_datakind/api/v1.0/test
-```
-
-If everything is working properly, you'll get the following response:
-
-```
-{
-  "message": "Hello, friend! :)"
-}
-```
-
-## Run Test
-
-To run the tests for this package, navigate to this folder and run the following command
-
-```
-python -m pytest
-```
-
-To run an individual test, navigate to the test folder and run
-
-```
-pytest {filename}
 ```
 
 ## Caseworker Activity Schedules
