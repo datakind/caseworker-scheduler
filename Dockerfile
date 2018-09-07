@@ -41,7 +41,9 @@ RUN npm i -g nodemon
 RUN nodemon -v
 
 # Get the Caseworker Code
-RUN git clone https://github.com/datakind/caseworker-scheduler.git
+RUN mkdir caseworker-scheduler
+COPY cbc-interface /caseworker-scheduler/cbc-interface 
+COPY cbc_api /caseworker-scheduler/cbc_api 
 
 ## Setup Python
 RUN rm -f /usr/bin/python && ln -s /usr/bin/python3.6 /usr/bin/python
