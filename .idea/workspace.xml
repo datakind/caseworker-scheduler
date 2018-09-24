@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="079c79ee-9b7f-4f33-bdb8-75b5e15caba4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/DockerReadme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/.angular-cli.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/3rdpartylicenses.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/assets/DataKind_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/assets/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/assets/marker-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/fontawesome-webfont.674f50d287a8c48dc19b.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/fontawesome-webfont.912ec66d7572ff821749.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/fontawesome-webfont.b06871f281fee6b241d6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/fontawesome-webfont.fee66e712a8a08eef580.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/inline.318b50c57b4eba3d437b.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/leaflet/layers-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/leaflet/layers.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/leaflet/marker-icon-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/leaflet/marker-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/leaflet/marker-shadow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/main.af5f11d2c7cfb05f491c.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/polyfills.cbd5124a078006e593ab.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/cbc_app_dist/styles.227d4f9afcfe296ffbc2.bundle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/e2e/app.e2e-spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/e2e/app.po.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/e2e/tsconfig.e2e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app-routing.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/app.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/complexity/complexity.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/complexity/complexity.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/complexity/complexity.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/complexity/complexity.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/complexity/complexity.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/header/header.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/header/header.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/header/header.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/header/header.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities-edit/my-activities-edit.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities-edit/my-activities-edit.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities-edit/my-activities-edit.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities-edit/my-activities-edit.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/my-activities/my-activities.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/leaflet/leaflet.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/leaflet/leaflet.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/leaflet/leaflet.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/leaflet/leaflet.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/deadline/deadline.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/deadline/deadline.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/deadline/deadline.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/deadline/deadline.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/groups/groups.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/groups/groups.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/groups/groups.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/groups/groups.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/hours/hours.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/hours/hours.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/hours/hours.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/hours/hours.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/objective/objective.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/objective/objective.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/objective/objective.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/objective/objective.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/objective/objective.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/optimizer-options.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/optimizer-options.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/optimizer-options.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/optimizer-options.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/order/order.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/order/order.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/order/order.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer-options/order/order.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/optimizer.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/schedule/schedule.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/schedule/schedule.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/schedule/schedule.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/optimizer/schedule/schedule.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/services/activity-router.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/services/http.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/services/my-activities.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/services/optimization.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/services/user-id.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/activity.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/case.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/dropdown.directive.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/jabber.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/shared/optimization-problem.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/startpoint/startpoint.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/startpoint/startpoint.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/startpoint/startpoint.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/app/startpoint/startpoint.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/assets/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/assets/DataKind_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/assets/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/assets/marker-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/environments/environment.prod.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/environments/environment.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/main.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/polyfills.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/test.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/tsconfig.app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/tsconfig.spec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/src/typings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc-interface/tslint.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/__main__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/app.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/config_manager.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/api_test.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/example_activities.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/example_endpoints.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/example_schedule.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/insert_test.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/data/schedule_test.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/dbops.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/activities.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/endpoint.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/schedule.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/test.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/dbops/sql/usage.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/email/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/email/email_exporter.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/email/sample_schedule.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/geo/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/geo/msdn.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/schedule/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/schedule/capacity_tester.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/schedule/schedule.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/schedule/tsp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/cbc_api/wfastcgi.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/requirements.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/setup.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/tests/test_config_manger.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/tests/test_dbops.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/tests/test_msdn.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cbc_api/tests/test_schedule.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nginx.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/run_me_first.sh" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="23" />
+    <option name="width" value="1931" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="caseworker-scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caseworker-scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="$USER_HOME$/anaconda/envs/my_py_3/bin/python">
+        <option name="mySdkHome" value="$USER_HOME$/anaconda/envs/my_py_3/bin/python" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="079c79ee-9b7f-4f33-bdb8-75b5e15caba4" name="Default" comment="" />
+      <created>1537807528769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537807528769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="23" width="1931" height="1015" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02251309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22934783" sideWeight="0.5041885" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22934783" sideWeight="0.49581152" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49790576" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="docker1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
