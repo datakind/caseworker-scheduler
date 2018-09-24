@@ -2,6 +2,13 @@
 
 DataKind worked with Community Based Care of Central Florida to design a solution for helping their caseworkers sequence their required activities more efficiently to reduce planning and travel time. An ideal solution would optimize the caseworker’s weekly activities (what is the best sequence for reducing travel while respecting those events that occur at fixed times), yet at the same time be flexible to accommodate constraints that may arise.
 
+
+See below for more information on the tool. 
+
+**Dev Instructions**: We have provided basic installation and setup instructions that will require web programming experience. See this [file](application/Installation.md)
+
+**Docker Demo**: We have also provided a setup dockerfile that can be used to easily build and run a demo of the app for exploratory purposes. See this [file](application/DockerReadme.md).
+
 --------------------------
 
 

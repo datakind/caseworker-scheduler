@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 service mysql start; echo "create database cbc_schedule" | mysql;
 
 ( cd cbc_api ; cbc_api add_config --overwrite  --key MYSQL_HOST --value localhost )
