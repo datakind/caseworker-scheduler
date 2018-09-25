@@ -1,4 +1,4 @@
-# DataKind Scheduler Dependencies
+# DataKind Scheduler Instillation/Dependencies
 
 The UI for the scheduler is build in Angular.
 To run the UI, you'll need node and npm installed on your system.
@@ -22,7 +22,7 @@ To run the UI in a development server, run `ng serve` from the `cbc-interface` f
 This will run the UI on port 4200.
 If you have a web server, ensure that you redirect traffic from `/` to port 4200.
 To create a production build of the app, run `ng build --prod`.
-This will create a static `dist` folder that you can host from a webserver.
+This will create a static `dist` folder that you can host from a web server.
 
 # DataKind Scheduler API
 
@@ -43,7 +43,7 @@ cbc_api launch --debug
 ```
 
 To make sure everything's working, run the following command from the terminal or
-paste the URL into a brower:
+paste the URL into a browser:
 
 ```
 curl http://localhost:5000/cbc_datakind/api/v1.0/test
@@ -248,7 +248,7 @@ Where SMTP_CREDENTIALS follows the following format: {"user": "myusername", "pas
 
 ## Converting an Address
 
-The current endpoint for convert an address to coordinates proxies out to the Microsoft MSDN API. Later, we may add an option to use a different API, such as Google. The following in an example service call for this route
+The current endpoint for convert an address to coordinates proxies out to the Microsoft MDSN-BING API. Later, we may add an option to use a different API, such as Google. The following in an example service call for this route
 
 ```
 curl -i -H "Content-Type: application/json" "http://localhost:5000/cbc_datakind/api/v1.0/convert_address?street=1+Microsoft+Way&city=Redmond&state=WA&zipCode=98052" 
