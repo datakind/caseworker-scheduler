@@ -11,6 +11,7 @@ RUN add-apt-repository ppa:jonathonf/python-3.6
 RUN apt-get update
 RUN  apt-get install -y python3.6 libpython3.6
 
+# Update again
 RUN apt-get upgrade -y
 RUN apt-get dist-upgrade -y
 
@@ -52,7 +53,7 @@ RUN apt-get -y install python3.6-dev python3.6-venv
 RUN wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py
 
 ## Setup Interface
-RUN cd /caseworker-scheduler/cbc-interface && npm install && npm install -g @angular/cli 
+RUN cd /caseworker-scheduler/cbc-interface && npm install && npm install -g @angular/cli
 
 ## Fixes some error - something about ASCII came up 
 ENV LC_ALL C.UTF-8
@@ -63,7 +64,7 @@ RUN cd /caseworker-scheduler/cbc_api && pip3 install -e . && pip3 install pandas
 RUN cd /caseworker-scheduler/cbc_api && pip3 install pyschedule==0.2.16
 
 ## Copy the last files
-COPY run_me_first.sh /caseworker-scheduler/run_me_first.sh
+COPY start_app.sh /caseworker-scheduler/start_app.sh
 COPY nginx.conf /etc/nginx/nginx.conf
 
 

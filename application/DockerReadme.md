@@ -1,7 +1,7 @@
 # Docker Run Instructions
 
 ## Steps to run the docker
-1. Open terminal inside the `caseworker-scheduler` directory (docker1 branch)
+1. Open terminal inside the `caseworker-scheduler/application` directory (docker1 branch)
 2. Build the image from the docker file 
 
     `$ docker build -t "casescheduler:dockerfile" .`
