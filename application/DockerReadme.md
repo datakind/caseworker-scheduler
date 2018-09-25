@@ -12,11 +12,10 @@
 4. Once you are in the image you need to provide the CBC_API access to a Bing Maps API key. If you need to get an API key go  [here](https://msdn.microsoft.com/en-us/library/ff428642.aspx). Once you have your key execute the following in the terminal
 
      `$ export MSDN_KEY=<your api key>`
-4. Then run the bash script `run_me_first.sh`
+4. Then run the bash script `start_app.sh`
 
-    `$ sh run_me_first.sh`
-
-
+    `$ sh start_app.sh`
+6. Now navigate to [http://localhost:80](http://localhost:80)
 ## Todo
 1. Error or two in the browser console. Not sure these matter. 
 2. The travel times seem real low - why is that? 
