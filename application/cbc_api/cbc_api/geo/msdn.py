@@ -64,15 +64,18 @@ class MSDN(object):
             str_coordinates.append(str_pair)
         coord_param = ';'.join([','.join(x) for x in str_coordinates])
         query_params = urlencode({
-            'origins' : coord_param,
-            'destinations' : coord_param,
-            'travelMode' : 'driving',
-            'key' : self.key
+            'origins': coord_param,
+            'destinations': coord_param,
+            'travelMode': 'driving',
+            # 'startTime': "2017-09-24T07:00:00-08:00",
+            'key': self.key
         })
         url = base_url + query_params
 
         # Make the request
         response = requests.get(url)
+        print(response)
+        print(str(url))
         response_dict = json.loads(response.text)
 
         # Parse the output
@@ -91,4 +94,5 @@ class MSDN(object):
                 distances[origin] = {}
             distances[origin][dest] = travel_duration
 
+        print('distances', distances)
         return distances
