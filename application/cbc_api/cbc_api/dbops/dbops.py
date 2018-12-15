@@ -130,7 +130,6 @@ class DBOps(object):
         # Build the insert values
         values = (
             activity['userId'],
-            activity['id'],
             activity['caseName'],
             activity['activityType'],
             activity['expectedDuration'],
@@ -147,11 +146,11 @@ class DBOps(object):
         # Build and execute the query
         sql = """
             INSERT INTO cbc_schedule.activities
-            (userId, id, caseName, activityType, expectedDuration,
+            (userId, caseName, activityType, expectedDuration,
             address, city, state, zipCode, xCoordinate, yCoordinate, 
             completed, insert_timestamp)
             VALUES
-            (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """
         with self.connection.cursor() as cursor:
             cursor.execute(sql, values)
